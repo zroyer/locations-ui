@@ -1,5 +1,5 @@
 # Locations UI 🏙
-A metric logging and reporting service that sums metrics by time window for the most recent hour.
+A sample UI for the Locations section of the Silvercar booking widget.
 
 Built for Silvercar by [@zroyer](https://github.com/zroyer).
 
