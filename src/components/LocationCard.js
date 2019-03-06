@@ -1,4 +1,29 @@
 import React, { Component } from 'react';
+import styled from 'styled-components'
+
+const Card = styled.div`
+  color: #5c2b11;
+  padding: 8px 12px;
+  margin: 8px;
+  font-size: 14px;
+  width: 320px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: 2px solid #FF5800;
+
+  :hover {
+    background-color: #FF5800;
+    color: #FFF;
+  }
+`;
+
+const Title = styled.div`
+  font-size: 18px;
+  font-weight: 600;
+`;
+
 
 class LocationCard extends Component {
   render() {
@@ -12,10 +37,10 @@ class LocationCard extends Component {
       (airport_code ? ` (${airport_code})` : '');
 
     return (
-      <div>
-        <h1>
+      <Card>
+        <Title>
           {displayName}
-        </h1>
+        </Title>
         <div>
           <span>
           {airport_code ? (
@@ -38,7 +63,7 @@ class LocationCard extends Component {
             : {description}
           </span>
         </div>
-      </div>
+      </Card>
     );
   }
 }
