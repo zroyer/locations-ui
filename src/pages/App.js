@@ -3,13 +3,17 @@ import styled from 'styled-components';
 import { pruneLocations } from '../helpers/pruneLocations';
 import { getFilteredLocations } from '../helpers/getFilteredLocations';
 import LocationsSection from '../components/LocationsSection';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const AppContainer = styled.div`
   background-color: #FDEDE4;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   height: 100vh;
+  overflow: hidden;
 `;
 
 class App extends Component {
@@ -51,14 +55,13 @@ class App extends Component {
 
     return (
       <AppContainer>
-        <div>
-          <input
-            onChange={this._handleInputChange}
-          />
-        </div>
+        <Navbar
+          handleInputChange={this._handleInputChange}
+        />
         <LocationsSection
           visibleLocations={visibleLocations}
         />
+        <Footer />
       </AppContainer>
     );
   }
