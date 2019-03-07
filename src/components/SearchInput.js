@@ -7,6 +7,7 @@ const InputWrapper = styled.div`
   flex-direction: row;
   align-items: center;
 `;
+
 const StyledInput = styled.input`
   padding: 0px 5px;
   position: relative;

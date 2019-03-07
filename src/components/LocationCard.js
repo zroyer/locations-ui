@@ -21,15 +21,18 @@ const Card = styled.div`
     fill: #FCFBF0;
   }
 `;
+
 const Title = styled.div`
   font-size: 18px;
   font-weight: 600;
 `;
+
 const DescriptionWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
 `;
+
 const DescriptionSpan = styled.div`
   margin: 0 0 0 4px;
 `;

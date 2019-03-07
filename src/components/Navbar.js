@@ -15,6 +15,7 @@ const NavContainer = styled.div`
     height: 120px;
   }
 `;
+
 const NavWrapper = styled.div`
   display: flex;
   flex-direction: row;

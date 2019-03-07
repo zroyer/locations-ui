@@ -4,6 +4,6 @@ export function getFilteredLocations(locations, query) {
       location.multi_car_display_name.toLowerCase().includes(query) ||
       location.description.toLowerCase().includes(query) ||
       (location.airport_code && location.airport_code.toLowerCase().includes(query))
-    )
+    );
   });
 }

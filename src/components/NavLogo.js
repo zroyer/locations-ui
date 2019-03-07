@@ -8,6 +8,7 @@ const ImageWrapper = styled.div`
   align-items: center;
   justify-content: center;
 `;
+
 const Image = styled.div`
   height: 25px;
   width: 150px;
