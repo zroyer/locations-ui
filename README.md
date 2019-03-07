@@ -1,6 +1,7 @@
 # Locations UI 🏙
-A sample UI for the Locations section of the Silvercar booking widget.  
-Built for Silvercar by [@zroyer](https://github.com/zroyer).   
+A sample UI for the Locations section of the Silvercar booking widget   
+Built for Silvercar by [@zroyer](https://github.com/zroyer)   
+Hosted on [Netlify](https://locations-ui.netlify.com/)  
 
 ## Setup 🚀
 - `cd` into `/locations-ui`
@@ -11,3 +12,4 @@ Built for Silvercar by [@zroyer](https://github.com/zroyer).
 ## Built With 🏗
 - [React](https://github.com/facebook/react)
 - [styled-components](https://github.com/styled-components)
+- [material-ui](https://material.io/tools/icons/?style=baseline)
