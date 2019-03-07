@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import SVG from 'react-inlinesvg';
 
 const Card = styled.div`
-  border-left: 2px solid #FF5800;
+  border-left: 2px solid #ff7932;
+  border-left: 2px solid #f8cb53;
   color: #5c2b11;
   fill: #5c2b11;
   font-size: 14px;
@@ -16,9 +17,10 @@ const Card = styled.div`
   align-items: flex-start;
   justify-content: center;
   :hover {
-    background-color: #FF5800;
-    color: #fff;
-    fill: #fff;
+    background-color: #ff7932;
+    background-color: #f8cb53;
+    color: #FCFBF0;
+    fill: #FCFBF0;
   }
 `;
 const Title = styled.div`

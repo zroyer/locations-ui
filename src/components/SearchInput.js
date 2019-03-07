@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const InputWrapper= styled.div`
+const InputWrapper = styled.div`
   height: 60px;
   display: flex;
   flex-direction: row;

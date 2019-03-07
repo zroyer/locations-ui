@@ -1,10 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import SVG from 'react-inlinesvg';
 import SearchInput from './SearchInput';
 
-const NavContainer= styled.div`
-  background-color: white;
+const NavContainer = styled.div`
+  background-color: #FCFBF0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,7 +14,7 @@ const NavContainer= styled.div`
     height: 120px;
   }
 `;
-const NavWrapper= styled.div`
+const NavWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,20 +31,22 @@ const NavWrapper= styled.div`
     height: 120px;
     flex-direction: column;
     align-items: center;
-      justify-content: space-around;
+    justify-content: space-around;
   }
 `;
-const SvgWrapper= styled.div`
+const ImageWrapper = styled.div`
   height: 60px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  > span {
-    > svg {
-      max-height: 30px;
-      max-width: 200px;
-    }
-  }
+`;
+const Image = styled.div`
+  height: 25px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://s3.amazonaws.com/development-silvercar-static-assets/assets/web-assets/silvercar-by-audi.svg);
 `;
 
 function Navbar(props) {
@@ -54,9 +55,9 @@ function Navbar(props) {
   return (
     <NavContainer>
       <NavWrapper>
-        <SvgWrapper>
-          <SVG src="/images/silvercar.svg" />
-        </SvgWrapper>
+        <ImageWrapper>
+          <Image />
+        </ImageWrapper>
         <SearchInput
           handleInputChange={handleInputChange}
         />

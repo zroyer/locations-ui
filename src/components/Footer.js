@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const FooterDiv= styled.div`
+const FooterDiv = styled.div`
   width: 100%;
   height: 34px;
-  background-color: #F4F4F4;
+  background-color: #FCFBF0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,8 +13,12 @@ const FooterDiv= styled.div`
 `;
 
 const FooterLink= styled.a`
-  color: #5c2b11;
+  color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
+  :hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.87);
+  }
 `;
 
 function Footer(props) {
@@ -29,7 +33,7 @@ function Footer(props) {
           role='img'
           aria-label='fiyah'
         >
-          &nbsp;🔥&nbsp;
+          &nbsp;🌮&nbsp;
         </span>
         in Austin, TX
       </FooterLink>

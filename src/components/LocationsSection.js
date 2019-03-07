@@ -2,20 +2,20 @@ import React from 'react';
 import LocationCard from './LocationCard';
 import styled from 'styled-components';
 
-const LocationsDiv= styled.div`
+const LocationsDiv = styled.div`
   background-color: #FDEDE4;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  height: calc(100vh - 96px);
+  height: calc(100vh - 94px);
 
   @media (max-width: 768px) {
     height: calc(100vh - 156px);
   }
 `;
 
-const LocationsWrapper= styled.div`
+const LocationsWrapper = styled.div`
   margin: 40px 0;
   overflow-y: auto;
   background-color: #FDEDE4;
