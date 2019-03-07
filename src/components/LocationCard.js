@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import SVG from 'react-inlinesvg';
+import AirplanemodeActive from '@material-ui/icons/AirplanemodeActive';
+import LocationCity from '@material-ui/icons/LocationCity';
 
 const Card = styled.div`
   border-left: 2px solid #f8cb53;
@@ -51,13 +52,12 @@ function LocationCard(props) {
     <Card>
       <Title>
         {displayName}
-        <SVG src="/images/github.svg" />
       </Title>
       <DescriptionWrapper>
         {airport_code ? (
-          <SVG src="/images/airplanemode_active.svg" />
+          <AirplanemodeActive />
         ) : (
-          <SVG src="/images/location_city.svg" />
+          <LocationCity />
         )}
         <DescriptionSpan>
           {description}
