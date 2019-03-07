@@ -33,7 +33,7 @@ function Footer(props) {
           role='img'
           aria-label='fiyah'
         >
-          &nbsp;🌮
+          &nbsp;🌮&nbsp;
         </span>
         in Austin, TX
       </FooterLink>
