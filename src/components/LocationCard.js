@@ -35,7 +35,7 @@ const DescriptionWrapper = styled.div`
 `;
 
 const DescriptionSpan = styled.div`
-  margin: 0 0 0 4px;
+  margin: 3px 0 0 4px;
 `;
 
 function LocationCard(props) {
