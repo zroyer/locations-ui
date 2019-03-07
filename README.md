@@ -1,7 +1,10 @@
 # Locations UI 🏙
-A sample UI for the Locations section of the Silvercar booking widget.
-Built for Silvercar by [@zroyer](https://github.com/zroyer).
-Currently deployed on [Surge](http://locations-ui.surge.sh/)
+A sample UI for the Locations section of the Silvercar booking widget.  
+
+Built for Silvercar by [@zroyer](https://github.com/zroyer).  
+
+Currently deployed on [Surge](http://locations-ui.surge.sh/).  
+
 
 ## Setup 🚀
 - `cd` into `/locations-ui`
