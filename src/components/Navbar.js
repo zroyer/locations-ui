@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import NavLogo from './NavLogo';
 import SearchInput from './SearchInput';
 
 const NavContainer = styled.div`
@@ -34,20 +35,6 @@ const NavWrapper = styled.div`
     justify-content: space-around;
   }
 `;
-const ImageWrapper = styled.div`
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-`;
-const Image = styled.div`
-  height: 25px;
-  width: 150px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(https://s3.amazonaws.com/development-silvercar-static-assets/assets/web-assets/silvercar-by-audi.svg);
-`;
 
 function Navbar(props) {
   const { handleInputChange } = props;
@@ -55,9 +42,7 @@ function Navbar(props) {
   return (
     <NavContainer>
       <NavWrapper>
-        <ImageWrapper>
-          <Image />
-        </ImageWrapper>
+        <NavLogo />
         <SearchInput
           handleInputChange={handleInputChange}
         />
