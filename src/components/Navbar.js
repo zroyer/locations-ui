@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SearchInput from './SearchInput';
 
 const NavContainer = styled.div`
-  background-color: #fff;
+  background-color: #FCFBF0;
   display: flex;
   flex-direction: row;
   justify-content: center;
